@@ -187,7 +187,7 @@ glCatPath.add( {
 
 let updateUI = () => {
   let now = new Date();
-  let deadline = new Date( 2018, 2, 16, 0, 0 );
+  let deadline = new Date( 2018, 2, 30, 0, 0 );
 
   divCountdown.innerText = 'Deadline: ' + Math.floor( ( deadline - now ) / 1000 );
 };
